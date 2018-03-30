@@ -1,0 +1,30 @@
+{
+    "schedule_iteration_index" : "int",
+    "schedules" : [{
+        "name" : "string",
+        "type" : "string",
+        "producer" : [ "string" ],
+        "consumer" : [ "string" ],
+        "domain_vars" : [ "string" ],
+        "store" : {
+                    "func" : "string",
+                    "var"  : "string"
+                  },
+        "compute" : {
+                      "func" : "string",
+                      "var"  : "string"
+                    },
+        "split_vars"    : [ "string" ],
+        "split_bounds"  : [ "string" ],
+        "reorder"       : [ "string" ],
+        "vectorize" : [{
+                        "var" : "string",
+                        "bound" : "int"
+                      }],
+        "parallelize" : [{
+                         "var" : "string",
+                         "bound" : "int"
+                        }],
+        "category" : "string"
+    }]
+}
