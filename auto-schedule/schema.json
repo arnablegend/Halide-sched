@@ -6,6 +6,8 @@
         "producer" : [ "string" ],
         "consumer" : [ "string" ],
         "domain_vars" : [ "string" ],
+        "input_dims"  : [ "int" ],
+        "output_dims" : [ "int" ],
         "store" : {
                     "func" : "string",
                     "var"  : "string"
@@ -15,7 +17,7 @@
                       "var"  : "string"
                     },
         "split_vars"    : [ "string" ],
-        "split_bounds"  : [ "string" ],
+        "split_bounds"  : [ "int" ],
         "reorder"       : [ "string" ],
         "vectorize" : [{
                         "var" : "string",
